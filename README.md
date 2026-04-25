@@ -44,3 +44,10 @@ The venv is only used during the build — NEST itself runs under your system Py
 ├── nest-build/     # Build artifacts
 └── nest-venv/      # Build-time venv (not needed after install)
 ```
+
+## To clean
+```bash
+chmod +x clean.sh
+./clean.sh
+source ~/.bashrc
+```
